@@ -383,8 +383,8 @@ class Application:
 
 
 main_window = Tk()
-main_window.maxsize(660, 340)
-main_window.minsize(660, 340)
+main_window.maxsize(700, 340)
+main_window.minsize(700, 340)
 Application(main_window)
 
 # Quando tenta colocar uma imagem PNG como ícone, ele mostra um ícone genérico de imagem
