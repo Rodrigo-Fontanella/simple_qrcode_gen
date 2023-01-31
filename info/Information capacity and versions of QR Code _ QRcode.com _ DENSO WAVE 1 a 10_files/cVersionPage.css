@@ -1,0 +1,44 @@
+.versionPageContents {
+	margin-left:70px;
+	margin-top:20px;
+	width:90%;
+	font-size:14px;
+	clear:both; /* スマホレイアウト乱れ対策 */
+	height:550px;　/* スマホレイアウト乱れ対策 */
+}
+
+.smallText {
+	font-size:12px;
+}
+
+.versionPageHeader {
+	width:100%;
+	height:50px;
+}
+
+.versionPageHeader h4 {
+	width:40%;
+	float:left;
+	padding:10px 0;
+}
+
+.versionPageHeader ul {
+	list-style:none;
+	float:right;
+}
+
+.versionPageHeader li {
+	float:left;
+	padding:10px 10px;
+}
+
+.versionPageScrollContents {
+	width:90%;
+	margin-left:20px;
+	height:465px;
+	overflow-y:scroll;
+}
+
+.versionPageScrollContents p {
+	width:100%;
+}

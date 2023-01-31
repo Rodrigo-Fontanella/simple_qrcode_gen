@@ -1,0 +1,196 @@
+#containerContents {
+	margin-left:auto;
+	margin-right:auto;
+	width:980px;
+	font-size:14px;
+	color:#000;
+}
+
+p.contentsText {
+	width:100%;
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+#versionH1Title{
+	background-image:url(../img/version/versionH1Title.png);
+	background-repeat:no-repeat;
+	width:561px;
+	height:90px;
+	/*margin-left:14px;*/
+	float:left;
+}
+
+.h1SeniorSign {
+	background-color:#0c4c90;
+	color:#fff;
+	padding:3px 6px;
+	float:left;
+	margin-top:13px;
+}
+
+#backTop {
+	float:right;
+	background-color:#800f0f;
+	font-size:12px;
+	color:#fff;
+	margin-top:15px;
+	width:180px;
+	text-align:center;
+}
+
+#backTop a {
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+#versionContents {
+	clear:both; /* スマホレイアウト乱れ対策 */
+	height:410px;　/* スマホレイアウト乱れ対策 */
+	width:94%;		/* 100%でないのはpaddingとの調整結果 */
+	background-color:#e7e7e7;
+	padding:30px;
+}
+
+#versionContents p {
+	overflow:hidden;
+}
+
+#versionImg {
+	float:left;
+	margin-right:30px;
+}
+
+#versionVarietyImg {
+	border:1px solid #1a1a1a;
+	margin:16px 0px 16px 36px;
+}
+
+.gotoTopButton {
+	text-align:right;
+	clear:both;
+	margin:16px 0px 0px 0px;
+	width:100%;
+}
+
+#listH2Title {
+	background-image:url(../img/version/listH2Title.png);
+	background-repeat:no-repeat;
+	width:192px;
+	height:27px;
+	float:left;
+}
+
+#listMap {
+	position:relative;	/*	listCellをリンクにするため	listCellはtable-cellにしているためrelativeが効かない */
+}
+
+.listCell {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	width:243px;
+	height:80px;
+	background:url(../img/version/listCellbutton.png) 0 0 no-repeat;
+	border:1px solid #fff;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.listCell a {
+	display:block;
+	width:243px;
+	height:100%;
+	top:0;
+	text-indent:-9999px;
+	position:absolute;
+}
+
+.listCell a:hover {
+	background-color:#fff;
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+	opacity:0.3;
+}
+
+#listCell1_10 {
+	left:0px;
+}
+
+#listCell11_20 {
+	left:244px;
+}
+
+#listCell21_30 {
+	left:488px;
+}
+
+#listCell31_40 {
+	left:732px;
+}
+
+#decisionH2Title {
+	background-image:url(../img/version/decisionH2Title.png);
+	background-repeat:no-repeat;
+	width:720px;
+	height:27px;
+	float:left;
+}
+
+#decisionContents{
+	clear:both; /* スマホレイアウト乱れ対策 */
+	height:630px;　/* スマホレイアウト乱れ対策 */
+	}
+
+#decisionMap {
+	width:94%;
+	border:2px solid #333;
+	padding:3%;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+#decisionCell {
+	background-image:url(../img/version/decisionMap.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#e7e7e7;
+	width:100%;
+	height:300px;
+	margin-top:20px;
+}
+
+#mixedLinkButton {
+	text-align:center;
+	width:300px;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px 30px;
+	margin-top:40px;
+	background:url(../img/version/mixedLinkButton.png) 0 0 no-repeat;
+	position:relative;
+}
+
+#mixedLinkButton a {
+	display:block;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-indent:-9999px;
+	position:absolute;
+}
+
+#mixedLinkButton a:hover {
+	background-color:#fff;
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+	opacity:0.3;
+}
+
+.versionPage {
+	width:920px;
+}
